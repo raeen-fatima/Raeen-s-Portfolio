@@ -4,7 +4,7 @@ import HeroImg from "../assets/mypic.jpg";
 import { Link } from 'react-scroll'; // For smooth scroll
 import { motion } from "framer-motion";
 import './Contact'
-import Resume from '../../public/RaeenFatimaCv.pdf'
+import Resume from '../../public/Raeen_Resume(1).pdf'
 import { SlideRight } from "../utilities/Animation";
 
 const Hero = () => {
@@ -15,8 +15,8 @@ const Hero = () => {
     setTimeout(() => setLineVisible(false), 1000);
     
     const link = document.createElement("a");
-    link.href = "RaeenFatimaCv.pdf"; 
-    link.download = "RaeenFatimaCv.pdf";
+    link.href = "Raeen_Resume(1).pdf"; 
+    link.download = "Raeen_Resume(1).pdf";
     link.click();
   };
 
@@ -63,7 +63,7 @@ const Hero = () => {
                 >
                   {}
                  </Link>
-                 <a href="mailto:raeenfatima@gmail.com">
+                 <a href="mailto:raeenfatimahere@gmail.com">
            
                   Hire Me</a>
                 </button>
@@ -71,7 +71,7 @@ const Hero = () => {
                   className="flex justify-center text-white items-center gap-2 relative hover:text-secondry"
                   onClick={handleDownloadClick}
                   href= {Resume}
-                  download="RaeenFatimaCv.pdf"
+                  download="Raeen_Resume(1).pdf"
 
                 >
                   <FaDownLong />
