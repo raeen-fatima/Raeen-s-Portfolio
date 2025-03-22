@@ -13,7 +13,7 @@ export default function Projects() {
       title: "A Book Store App",
       description: "A fully functional e-commerce web app with payment integration.",
       githubLink: "https://github.com/raeen-fatima/Book-Store",
-      image: "http://thesweetsetup.com/wp-content/uploads/2016/12/eBooks-Ecosystems-SS-Hero-3.jpg"
+      image: "https://thesweetsetup.com/wp-content/uploads/2016/12/eBooks-Ecosystems-SS-Hero-3.jpg"
     },
     {
       title: "BidNest-The Auction Plateform",
